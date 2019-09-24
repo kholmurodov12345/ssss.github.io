@@ -1,0 +1,27 @@
+
+body{
+	text-align: center;
+}
+.rasm img{
+	transform: rotate(-90deg);
+	width: 150px;
+	transition: 5s ease all;
+}
+.rasm img:hover{
+	width: 250px;
+	background-color: transparent;
+	color: transparent;
+}
+	a{
+		border: 5px solid orange;
+		padding: 0px 20px 30px 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 15px;
+		transition: 5s ease all;
+	}
+	a:hover {
+			font-size: 50px;
+		background-color: red;
+
+	}
